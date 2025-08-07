@@ -14,13 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: liukaiming-alipay/liukaiming-alipay
+          repository: KaiMing-L/KaiMing-L
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: liukaiming-alipay
+          USERNAME: KaiMing-L
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
